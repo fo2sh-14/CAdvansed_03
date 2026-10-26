@@ -9,7 +9,7 @@
             List<int> grades = new List<int>() { 85, 92, 78, 95, 88, 70, 100, 65 };
             // point 2
             grades.ForEach(x => Console.Write($"{x}, "));
-            Console.WriteLine($"\n{grades.Count}");
+            Console.WriteLine($"\n{grades.Count}");  
             Console.WriteLine(grades.First());
             Console.WriteLine(grades.Last());
 
